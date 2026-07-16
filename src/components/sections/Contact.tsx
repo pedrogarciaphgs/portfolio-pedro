@@ -1,10 +1,11 @@
 import { Mail } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { Reveal } from "@/components/ui/Reveal";
 
 export function Contact() {
   return (
     <section id="contato" className="border-t border-white/10 py-24">
-      <div className="mx-auto max-w-7xl px-6">
+      <Reveal className="mx-auto max-w-7xl px-6">
         <div className="rounded-2xl border border-white/10 bg-white/2 px-6 py-12 text-center md:px-12">
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-blue-400">
             Contato
@@ -49,7 +50,7 @@ export function Contact() {
             </a>
           </div>
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 }

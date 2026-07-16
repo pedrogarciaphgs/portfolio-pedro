@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Reveal } from "@/components/ui/Reveal";
 
 const experiences = [
   {
@@ -18,7 +19,7 @@ const experiences = [
 export function Experience() {
   return (
     <section id="experiencia" className="border-t border-white/10 py-24">
-      <div className="mx-auto max-w-7xl px-6">
+      <Reveal className="mx-auto max-w-7xl px-6">
         <div className="max-w-2xl">
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-blue-400">
             Experiência
@@ -84,7 +85,7 @@ export function Experience() {
             </article>
           ))}
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 }

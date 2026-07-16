@@ -1,7 +1,9 @@
+import { Reveal } from "@/components/ui/Reveal";
+
 export function About() {
   return (
     <section id="sobre" className="border-t border-white/10 py-24">
-      <div className="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-[0.8fr_1.2fr]">
+      <Reveal className="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-[0.8fr_1.2fr]">
         <div>
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-blue-400">
             Sobre mim
@@ -33,7 +35,7 @@ export function About() {
             Clean Code, validação de dados, autenticação e controle de acesso.
           </p>
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 }
