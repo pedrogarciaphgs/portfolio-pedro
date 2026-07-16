@@ -9,7 +9,7 @@ export function Projects() {
     <section id="projetos" className="border-t border-white/10 py-24">
       <Reveal delay={0.1} className="mx-auto max-w-7xl px-6">
         <div className="max-w-2xl">
-          <p className="text-sm font-medium uppercase tracking-[0.2em] text-blue-400">
+          <p className="text-sm font-medium uppercase tracking-[0.2em] text-[#D4A72C]">
             Projetos
           </p>
 
@@ -27,12 +27,12 @@ export function Projects() {
           {projects.map((project) => (
             <article
               key={project.title}
-              className="rounded-2xl border border-white/10 bg-white/2 p-6 transition hover:border-blue-500/40 md:p-8"
+              className="rounded-2xl border border-white/10 bg-white/2 p-6 transition hover:border-[#D4A72C]/40 md:p-8"
             >
               <div className="flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
                 <div className="max-w-3xl">
                   {project.featured && (
-                    <span className="inline-flex rounded-full border border-blue-500/30 bg-blue-500/10 px-3 py-1 text-xs font-medium text-blue-400">
+                    <span className="inline-flex rounded-full border border-[#D4A72C]/40 bg-[#D4A72C]/15 px-3 py-1 text-xs font-medium text-[#D4A72C]">
                       Projeto em destaque
                     </span>
                   )}
@@ -81,7 +81,7 @@ export function Projects() {
                     href={project.deploy}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-500"
+                    className="inline-flex items-center gap-2 rounded-lg bg-[#B88A1B] px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-[#D4A72C]"
                   >
                     <ExternalLink size={18} />
                     Ver projeto

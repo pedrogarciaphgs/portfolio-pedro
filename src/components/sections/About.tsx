@@ -5,7 +5,7 @@ export function About() {
     <section id="sobre" className="border-t border-white/10 py-24">
       <Reveal className="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-[0.8fr_1.2fr]">
         <div>
-          <p className="text-sm font-medium uppercase tracking-[0.2em] text-blue-400">
+          <p className="text-sm font-medium uppercase tracking-[0.2em] text-[#D4A72C]">
             Sobre mim
           </p>
 

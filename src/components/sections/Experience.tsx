@@ -21,7 +21,7 @@ export function Experience() {
     <section id="experiencia" className="border-t border-white/10 py-24">
       <Reveal className="mx-auto max-w-7xl px-6">
         <div className="max-w-2xl">
-          <p className="text-sm font-medium uppercase tracking-[0.2em] text-blue-400">
+          <p className="text-sm font-medium uppercase tracking-[0.2em] text-[#D4A72C]">
             Experiência
           </p>
 
@@ -60,7 +60,9 @@ export function Experience() {
                         {experience.role}
                       </h3>
 
-                      <p className="mt-2 text-blue-400">{experience.company}</p>
+                      <p className="mt-2 text-[#D4A72C]">
+                        {experience.company}
+                      </p>
                     </div>
                   </div>
                 </div>

@@ -7,7 +7,7 @@ export function Contact() {
     <section id="contato" className="border-t border-white/10 py-24">
       <Reveal className="mx-auto max-w-7xl px-6">
         <div className="rounded-2xl border border-white/10 bg-white/2 px-6 py-12 text-center md:px-12">
-          <p className="text-sm font-medium uppercase tracking-[0.2em] text-blue-400">
+          <p className="text-sm font-medium uppercase tracking-[0.2em] text-[#D4A72C]">
             Contato
           </p>
 
@@ -23,7 +23,7 @@ export function Contact() {
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
             <a
               href="mailto:pedrogarciaphg@outlook.com"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-blue-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-500"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#B88A1B] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#D4A72C]"
             >
               <Mail size={18} />
               Enviar e-mail

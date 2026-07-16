@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 const navigation = [
   { label: "Sobre", href: "#sobre" },
@@ -24,9 +25,17 @@ export function Header() {
         <a
           href="#inicio"
           onClick={closeMenu}
-          className="text-lg font-bold tracking-tight text-white"
+          aria-label="Voltar ao início"
+          className="flex items-center"
         >
-          Pedro Garcia<span className="text-blue-500">.</span>
+          <Image
+            src="/images/pedro-garcia-logo.png"
+            alt="Pedro Garcia"
+            width={220}
+            height={60}
+            priority
+            className="h-16 w-auto object-contain"
+          />
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
@@ -43,7 +52,7 @@ export function Header() {
 
         <a
           href="#contato"
-          className="hidden rounded-lg border border-blue-500/50 px-4 py-2 text-sm font-medium text-blue-400 transition hover:bg-blue-500 hover:text-white md:inline-flex"
+          className="hidden rounded-lg border border-[#D4A72C]/40 px-4 py-2 text-sm font-medium text-[#D4A72C] transition hover:bg-[#D4A72C] hover:text-white md:inline-flex"
         >
           Fale comigo
         </a>

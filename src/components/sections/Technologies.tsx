@@ -6,7 +6,7 @@ export function Technologies() {
     <section id="tecnologias" className="border-t border-white/10 py-24">
       <Reveal className="mx-auto max-w-7xl px-6">
         <div className="max-w-2xl">
-          <p className="text-sm font-medium uppercase tracking-[0.2em] text-blue-400">
+          <p className="text-sm font-medium uppercase tracking-[0.2em] text-[#D4A72C]">
             Tecnologias
           </p>
 
@@ -27,7 +27,7 @@ export function Technologies() {
               delay={index * 0.08}
               className="h-full"
             >
-              <article className="h-full rounded-2xl border border-white/10 bg-white/2 p-6 transition duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/4">
+              <article className="h-full rounded-2xl border border-white/10 bg-white/2 p-6 transition duration-300 hover:-translate-y-1 hover:border-[#D4A72C]/40 hover:bg-white/4">
                 <h3 className="text-lg font-semibold text-white">
                   {group.category}
                 </h3>
