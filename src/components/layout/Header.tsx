@@ -14,7 +14,7 @@ export function Header() {
           href="#inicio"
           className="text-lg font-bold tracking-tight text-white"
         >
-          Pedro<span className="text-blue-500">.</span>
+          Pedro Garcia <span className="text-blue-500"></span>
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">

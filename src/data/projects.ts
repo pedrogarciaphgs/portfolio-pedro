@@ -16,5 +16,6 @@ export const projects = [
     repository: "https://github.com/pedrogarciaphgs/soundbase",
     deploy: "https://soundbase-nine.vercel.app/",
     featured: true,
+    logo: "/images/soundbase-logo.png",
   },
 ];

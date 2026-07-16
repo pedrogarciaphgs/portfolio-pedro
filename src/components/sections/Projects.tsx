@@ -1,6 +1,6 @@
 import { ExternalLink } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
-
+import Image from "next/image";
 import { projects } from "@/data/projects";
 
 export function Projects() {
@@ -36,10 +36,19 @@ export function Projects() {
                     </span>
                   )}
 
-                  <h3 className="mt-4 text-2xl font-bold text-white">
-                    {project.title}
-                  </h3>
+                  <div className="mt-4 flex items-center gap-4">
+                    <Image
+                      src={project.logo}
+                      alt={`Logo do ${project.title}`}
+                      width={56}
+                      height={56}
+                      className="h-14 w-14 object-contain"
+                    />
 
+                    <h3 className="text-2xl font-bold text-white">
+                      {project.title}
+                    </h3>
+                  </div>
                   <p className="mt-4 leading-8 text-zinc-400">
                     {project.description}
                   </p>
