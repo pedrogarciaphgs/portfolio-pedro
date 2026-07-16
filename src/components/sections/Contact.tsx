@@ -22,7 +22,7 @@ export function Contact() {
 
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
             <a
-              href="pedrogarciaphg@outlook.com"
+              href="mailto:pedrogarciaphg@outlook.com"
               className="inline-flex items-center justify-center gap-2 rounded-lg bg-blue-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-500"
             >
               <Mail size={18} />

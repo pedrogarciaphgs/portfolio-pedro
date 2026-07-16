@@ -9,6 +9,7 @@ import { Contact } from "@/components/sections/Contact";
 import { Experience } from "@/components/sections/Experience";
 import { Projects } from "@/components/sections/Projects";
 import { Technologies } from "@/components/sections/Technologies";
+import { Reveal } from "@/components/ui/Reveal";
 
 export default function Home() {
   return (
@@ -17,12 +18,12 @@ export default function Home() {
 
       <main id="inicio" className="min-h-screen pt-16">
         <section className="mx-auto grid min-h-[calc(100vh-4rem)] max-w-7xl items-center gap-12 px-6 py-20 lg:grid-cols-[1.15fr_0.85fr]">
-          <div className="max-w-4xl">
+          <Reveal className="max-w-4xl">
             <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-blue-400">
               Olá, meu nome é
             </p>
 
-            <h1 className="text-5xl font-bold tracking-tight text-white md:text-7xl">
+            <h1 className="bg-linear-to-r from-white via-zinc-100 to-blue-400 bg-clip-text text-5xl font-bold tracking-tight text-transparent md:text-7xl">
               Pedro Garcia
             </h1>
 
@@ -74,29 +75,30 @@ export default function Home() {
               </a>
 
               <a
-                href="pedrogarciaphg@outlook.com"
+                href="mailto:pedrogarciaphg@outlook.com"
                 aria-label="Enviar e-mail para Pedro Garcia"
                 className="text-zinc-400 transition hover:text-white"
               >
                 <Mail size={22} />
               </a>
             </div>
-          </div>
+          </Reveal>
+          <Reveal delay={0.2}>
+            <div className="group relative mx-auto flex w-full justify-center">
+              <div className="absolute h-72 w-72 rounded-full bg-blue-500/15 blur-3xl transition duration-500 group-hover:bg-blue-500/25" />
 
-          <div className="relative mx-auto flex w-full justify-center">
-            <div className="absolute h-72 w-72 rounded-full bg-blue-500/15 blur-3xl" />
-
-            <div className="relative h-64 w-64 overflow-hidden rounded-full border border-white/10 bg-zinc-900 md:h-72 md:w-72">
-              <Image
-                src="/images/pedro-profile.png"
-                alt="Pedro Garcia"
-                width={500}
-                height={500}
-                priority
-                className="h-full w-full object-cover"
-              />
+              <div className="relative h-64 w-64 overflow-hidden rounded-full border border-white/10 bg-zinc-900 transition duration-500 group-hover:scale-105 group-hover:border-blue-500/30 md:h-72 md:w-72">
+                <Image
+                  src="/images/pedro-profile.png"
+                  alt="Pedro Garcia"
+                  width={500}
+                  height={500}
+                  priority
+                  className="h-full w-full object-cover"
+                />
+              </div>
             </div>
-          </div>
+          </Reveal>
         </section>
         <About />
         <Technologies />
