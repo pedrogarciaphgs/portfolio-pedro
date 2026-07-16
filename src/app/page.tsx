@@ -1,7 +1,10 @@
 import { Mail } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-
+import { About } from "@/components/sections/About";
 import { Header } from "@/components/layout/Header";
+import { Technologies } from "@/components/sections/Technologies";
+import { Projects } from "@/components/sections/Projects";
+import { Experience } from "@/components/sections/Experience";
 
 export default function Home() {
   return (
@@ -20,7 +23,7 @@ export default function Home() {
             </h1>
 
             <h2 className="mt-4 text-2xl font-semibold leading-tight text-zinc-400 md:text-4xl">
-              Desenvolvedor Full Stack Júnior com foco em backend
+              Desenvolvedor Full Stack com foco em backend
             </h2>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-400">
@@ -76,6 +79,10 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <About />
+        <Technologies />
+        <Projects />
+        <Experience />
       </main>
     </>
   );
