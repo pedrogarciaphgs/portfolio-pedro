@@ -7,7 +7,7 @@ import { Reveal } from "@/components/ui/Reveal";
 export function Projects() {
   return (
     <section id="projetos" className="border-t border-white/10 py-24">
-      <Reveal className="mx-auto max-w-7xl px-6">
+      <Reveal delay={0.1} className="mx-auto max-w-7xl px-6">
         <div className="max-w-2xl">
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-blue-400">
             Projetos

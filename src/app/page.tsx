@@ -1,11 +1,14 @@
-import { About } from "@/components/sections/About";
-import { Header } from "@/components/layout/Header";
-import { Technologies } from "@/components/sections/Technologies";
-import { Projects } from "@/components/sections/Projects";
-import { Experience } from "@/components/sections/Experience";
-import { Contact } from "@/components/sections/Contact";
-import { Footer } from "@/components/layout/Footer";
 import Image from "next/image";
+import { Mail } from "lucide-react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
+import { Footer } from "@/components/layout/Footer";
+import { Header } from "@/components/layout/Header";
+import { About } from "@/components/sections/About";
+import { Contact } from "@/components/sections/Contact";
+import { Experience } from "@/components/sections/Experience";
+import { Projects } from "@/components/sections/Projects";
+import { Technologies } from "@/components/sections/Technologies";
 
 export default function Home() {
   return (
@@ -50,7 +53,33 @@ export default function Home() {
             </div>
 
             <div className="mt-8 flex items-center gap-5">
-              {/* seus ícones */}
+              <a
+                href="https://github.com/pedrogarciaphgs"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub de Pedro Garcia"
+                className="text-zinc-400 transition hover:text-white"
+              >
+                <FaGithub size={22} />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/pedrogarciaphgs/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn de Pedro Garcia"
+                className="text-zinc-400 transition hover:text-white"
+              >
+                <FaLinkedin size={22} />
+              </a>
+
+              <a
+                href="pedrogarciaphg@outlook.com"
+                aria-label="Enviar e-mail para Pedro Garcia"
+                className="text-zinc-400 transition hover:text-white"
+              >
+                <Mail size={22} />
+              </a>
             </div>
           </div>
 
