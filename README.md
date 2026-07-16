@@ -60,7 +60,9 @@ Aplicação full stack para gerenciamento musical, com painel administrativo e i
 
 #### Deploy
 
-https://soundbase-nine.vercel.app/
+Acesse o portfólio:
+
+https://portfolio-pedro-mocha.vercel.app/
 
 #### Repositório
 

@@ -7,7 +7,7 @@ export function Contact() {
   return (
     <section id="contato" className="border-t border-white/10 py-24">
       <Reveal className="mx-auto w-full max-w-7xl px-6">
-        <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 text-center transition duration-300 hover:-translate-y-1 hover:border-[#D4A72C]/40 hover:bg-white/[0.04] md:p-8">
+        <div className="rounded-2xl border border-white/10 bg-white/2 p-6 text-center transition duration-300 hover:-translate-y-1 hover:border-[#D4A72C]/40 hover:bg-white/4 md:p-8">
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-[#D4A72C]">
             Contato
           </p>
