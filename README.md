@@ -1,36 +1,153 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pedro Garcia — Portfólio
 
-## Getting Started
+Portfólio profissional desenvolvido para apresentar minha trajetória, experiência, tecnologias e projetos como **Desenvolvedor Full Stack**, com foco em backend.
 
-First, run the development server:
+## Visão geral
+
+O projeto foi criado com o objetivo de reunir, em uma única página, minhas principais informações profissionais:
+
+- apresentação pessoal;
+- experiência em tecnologia;
+- tecnologias utilizadas;
+- projetos desenvolvidos;
+- links para GitHub, LinkedIn e contato;
+- layout responsivo;
+- animações suaves;
+- navegação adaptada para dispositivos móveis.
+
+## Tecnologias
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Motion
+- React Icons
+- Lucide React
+- Vercel
+
+## Funcionalidades
+
+- Hero com apresentação profissional
+- Foto de perfil
+- Navegação por seções
+- Menu responsivo para dispositivos móveis
+- Seção Sobre
+- Tecnologias organizadas por categoria
+- Projetos em destaque
+- Experiência profissional
+- Contato por e-mail, LinkedIn e GitHub
+- Animações de entrada durante a navegação
+- Efeitos de hover
+- Layout responsivo
+
+## Projeto em destaque
+
+### SoundBase
+
+Aplicação full stack para gerenciamento musical, com painel administrativo e interface pública para navegação, busca e reprodução de músicas.
+
+#### Principais tecnologias
+
+- Next.js
+- TypeScript
+- Prisma ORM
+- PostgreSQL
+- Docker
+- NextAuth
+- Zod
+- Tailwind CSS
+
+#### Deploy
+
+https://soundbase-nine.vercel.app/
+
+#### Repositório
+
+https://github.com/pedrogarciaphgs/soundbase
+
+## Como executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/pedrogarciaphgs/portfolio-pedro.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd portfolio-pedro
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o ambiente de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra no navegador:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Scripts
 
-## Learn More
+Executa o projeto em modo de desenvolvimento:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Cria a versão de produção:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run build
+```
 
-## Deploy on Vercel
+Executa a versão de produção:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Executa a análise do código com ESLint:
+
+```bash
+npm run lint
+```
+
+## Estrutura do projeto
+
+```text
+src/
+├── app/
+├── components/
+│   ├── layout/
+│   ├── sections/
+│   └── ui/
+├── data/
+└── types/
+
+public/
+└── images/
+```
+
+## Autor
+
+Desenvolvido por **Pedro Garcia**.
+
+- GitHub: https://github.com/pedrogarciaphgs
+- LinkedIn: https://www.linkedin.com/in/pedrogarciaphgs/
+- E-mail: pedrogarciaphg@outlook.com
+
+## Licença
+
+Este projeto foi desenvolvido para fins profissionais e de apresentação pessoal.
