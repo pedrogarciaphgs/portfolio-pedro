@@ -16,6 +16,7 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiVercel,
+  SiPython,
 } from "react-icons/si";
 import { FaCloud } from "react-icons/fa";
 import { FaDatabase, FaHtml5, FaNetworkWired } from "react-icons/fa";
@@ -33,6 +34,11 @@ export const technologies = [
       {
         name: "TypeScript",
         icon: SiTypescript,
+        color: "text-blue-500",
+      },
+      {
+        name: "Python",
+        icon: SiPython,
         color: "text-blue-500",
       },
       {

@@ -39,7 +39,8 @@ export function Technologies() {
                     return (
                       <li
                         key={technology.name}
-                        className="flex items-center gap-3 rounded-xl border border-white/10 bg-zinc-900/70 px-4 py-3 text-sm text-zinc-300 transition hover:border-blue-500/40 hover:text-white"
+                        className="flex items-center gap-3 rounded-xl border border-white/10 bg-zinc-900/70 px-4 py-3 text-sm text-zinc-300 transition hover:border-[#D4A72C]/40
+ hover:text-white"
                       >
                         <Icon
                           className={`shrink-0 text-xl ${technology.color}`}

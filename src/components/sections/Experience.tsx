@@ -39,7 +39,7 @@ export function Experience() {
         <div className="mt-12">
           {experiences.map((experience) => (
             <article
-              className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 transition duration-300 hover:-translate-y-1 hover:border-[#D4A72C]/40 hover:bg-white/[0.04] md:p-8"
+              className="rounded-2xl border border-white/10 bg-white/2 p-6 transition duration-300 hover:-translate-y-1 hover:border-[#D4A72C]/40 hover:bg-white/4 md:p-8"
               key={`${experience.role}-${experience.company}`}
             >
               <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
